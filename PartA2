@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html> 
+<head>
+ <style>
+ form {
+ width: fit-content;
+ margin: 0px auto;
+ font-family: sans-serif;
+ background-color: silver;
+ box-shadow: rgba(0, 0, 0, 0.8) 0 0 10px;
+ border: 1px solid grey;
+ border-radius: 10px;
+ padding: 20px;
+ }
+ .button:hover {
+ background-color: green;
+ cursor: pointer;
+ }
+ </style>
+</head>
+<body>
+ <h1 style="text-align:center;color:green">REGISTRATION FORM</h1>
+ <form action="outputpage.html" method="post">
+ <p>
+ name:<br>
+ <input type="text" size="65" name="name" required placeholder="Enter your 
+name">
+ </p>
+ <p>
+ password:<br>
+ <input type="password" size="65" id="password" name="password" required 
+placeholder="Enter your password"/>
+ </p>
+ <P>
+ confirm password:<br>
+ <input type="password" size="65" id="confirm_password" 
+name="confirm_password" required placeholder="Confirm password"/>
+ </P>
+ <p>
+ contact number:<br>
+ <input type="tel" size="65" name="contact number" pattern="[0-9]{10}" required 
+placeholder="Enter a number"/>
+ </p>
+ <p>
+ skill range:<br>
+ <input type="range" name="skill range" width="100px" required/>
+ </p>
+ <p>
+ E-mail address:<br>
+ <input type="email" name="email" required placeholder="Enter your email"/>
+ </p>
+ <p>
+ profile URL:<br>
+ <input type="url" size="65" name="profile" required placeholder="Enter URL"/>
+ </p>
+ <p>
+ Resume:<br>
+ <input type="file" size="65" id="resume" name="resume" required>
+ </p>
+ <p>
+ <input type="submit" class="button" value="submit" name="submit"/>
+ <input type="reset" class="button" value="reset" name="reset"/>
+ </p>
+ </form>
+ <script>
+ var password = document.getElementById("password");
+ var confirm_password = document.getElementById("confirm_password");
+ function validatePassword() {
+ if(password.value != confirm_password.value) {
+ confirm_password.setCustomValidity("Passwords don't match");
+ } else {
+ confirm_password.setCustomValidity('');
+ }
+ }
+ password.onchange = validatePassword;
+ confirm_password.onkeyup = validatePassword;
+ </script>
+</body>
+</html>
+Outputpage.html
+<!DOCTYPE html>
+<html>
+ <body>
+ <h1 style="color:rgb(3,77,3)"><center>YOUR REGISTRATION IS 
+SUCESFULL</center> 
+ <h3 style="color:rgb(4,19,89)"><center>THANK YOU</center></h3>
+ </body>
+</html>
