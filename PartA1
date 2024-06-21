@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+ <head>
+ <figure>
+ <img align="left"src=" "width="150"hieght="150">
+ </figure>
+ <h1 style="color:orange">GFGC CARSTREET</h1>
+ <PRE>approved by govt of karnataka afiliated to mangalore university</PRE>
+ <hr>
+ <marquee direction="left"bgcolor="pink"style="font-size:20pt;">
+ <b>WELCOME TO GFGC CARSTREET</b>
+ </marquee>
+ </head>
+ <body>
+ <header>
+ <nav>
+ <center>
+ <div style="display:flex">
+ <div style="flex:1">
+ <h3><a href="courses.html">courses</a></h3>
+ </div>
+ <div style="flex:1">
+ <h3><a href="facilities.html">facilities</a></h3>
+ </div>
+ <div style="flex:1">
+ <h3><a href="contact.html">contact us</a></h3>
+ </div>
+ </div>
+ </center>
+ </nav>
+ </header>
+ <br><br><br>
+ <section>
+ <h1><center>ABOUT US</center></h1>
+<h1><center>vision</center></h1>
+ <pre><center>GFGC CARSTREET education trust has established in this field with 
+an outstanding reputation for providing the best in academic pursuits.the trust whose focus 
+has been on providing professional training for a variety of vocations stands proud with a 
+heritage of excellence and experience in the field of education
+ </center></pre>
+ <h1><center>mission</center></h1>
+ <pre><center>our mission is to education and transform the student community by 
+instiling in them pride in their talents naturing them and guiding them in how best to utilise it 
+for human welfare and progress </center></pre>
+ </section>
+ <br><br><br>
+ <footer>
+ <p>and copy:2023 GFGC CARSTREET ALL RIGHT reserved</p>
+ </footer>
+ </body>
+ </html>
+Courses.html
+<html>
+ <figure>
+ <img align="left"src=" "width="150"height="150">
+ </figure>
+ <h1 style="color:orange">GFGC CARSTREET</h1>
+ <PRE>approved by govt of karnataka afiliated to mangalore university</PRE>
+ <hr>
+ <marquee directon="left"bgcolor="pink"style="font-size:20pt">
+ <b>WELCOME TO GFGC CARSTREET</b></marquee>
+ </head>
+ <body>
+ <h2 id="courses">our courses</h2>
+ <p>We offer a variety of undergraduate programs in the following fields</p>
+ <ol>
+ <li>Bachelor of Computer Application(BCA)</li>
+ <li>Bachelor of Business Administration(BBA)</li>
+ <li>Bachelor of Science(B.Sc)</li>
+ </ol>
+ </body>
+ </html>
+facilities.html
+<html>
+ <head>
+ <figure>
+ <img align="left"src=""width="150"height="150">
+ </figure>
+<h1 style="color:orange">GFGC CARSTREET</h1>
+ <pre>Approved by Karnataka,Affilitated to MAngalore University</pre>
+ <hr>
+ <marquee direction="left"bgcolor="pink"style="font-size:20pt">
+ <b>WELCOME TO GFGC CARSTREET</b></marquee>
+ </head>
+ <body>
+ <aside>
+ <h2 id="facilities">our facilities</h2>
+ <p>we provide our students with world class facilities to support their academic and 
+extra carricular activities.Some of our facilities include</p><ul>
+ <li>Modern calssrooms and laboratories</li>
+ <li>Library with extensive collections & online resources</li>
+ <li>Recreation center with fitness equipment and indoor/outdoor sports 
+facilities</li>
+ <li>Cafeteria with a variety of dining options</li>
+ <li>Student housing options</li>
+ <li>Student support services,including academic advising and career services</li> 
+ </ul>
+ </aside>
+ </body>
+ </html>
+Contact.html
+<html>
+ <head>
+ <figure>
+ <img align="left"src=""width="150"height="150">
+ </figure>
+ <h1 style="color:orange">GFGC CARSTREET</h1>
+ <pre>Approved by Karnataka,Affilitated to Mangalore University</pre> 
+ <hr>
+ <marquee direction="left"bgcolor="pink"style="font-size:20pt">
+ <b>WELCOME TO GFGC CARSTREET</b></marquee>
+ </head>
+ <body>
+ <h2 id="contact"><center>Contact Us</center></h2>
+ <div style="Display:flex">
+ <div style="flex:1">
+ <h3>phone &#128231:</h3>
+ <p>info@gfgc.in</p>
+ </div>
+ <div style="flex:1">
+ <h3>Addres &#xe567:</h3>
+ <p>GGFC CARSTREET</br>
+ BallalBagh,Mangalore-575003</br>
+Karnataka state</p>
+ </div>
+ </div>
+ </body>
+ </html>
